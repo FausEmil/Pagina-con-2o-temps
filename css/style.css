@@ -28,7 +28,7 @@
     height: 75px;
 }
 .navbar{
-    background: black;
+    background: gray;
 }
 header {
   position: relative;
@@ -153,4 +153,11 @@ header .device-container .screen img {
   outline: none;
   color: black;
   background-color: #42DCA3;
+}
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
 }
