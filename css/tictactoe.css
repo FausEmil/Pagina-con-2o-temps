@@ -1,0 +1,37 @@
+.td_1{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+.td_2{
+    border-bottom: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+.td_3{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+.td_4{
+    border-right: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+.td_5{
+    border-left: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+TABLE{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+.fondo{
+    background: #0ff000;
+                   
+}
