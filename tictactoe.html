@@ -194,16 +194,46 @@
                 }
                 function maquina($turno, $tablero){
                         for(var i=0;i<$tablero.length;i++){
-	                        if($tablero[i]){
-                            var num=i+1;
-                            $('#'+num).addClass("ocupada2");
-                            $tablero[i]=false;
-                            $turno=0;
-                            break
-                            }
+                            if($tablero[4]){
+                                $('#5').addClass("ocupada2");
+                                $tablero[4]=false;
+                                break;
+                            }else{
+                                if($tablero[2]){
+                                    $('#3').addClass("ocupada2");
+                                    $tablero[2]=false;
+                                    break;
+                                }else{
+                                    if($('#3').hasClass("ocupada2")&&
+                                        $('#5').hasClass("ocupada2")&&$tablero[6]){
+                                            $('#7').addClass("ocupada2");
+                                            $tablero[6]=false;
+                                            break;
+                                        }else{
+                                            if($tablero[0]){
+                                                $('#1').addClass("ocupada2")
+                                                $tablero[0]=false;
+                                                break;
+                                            }else{
+                                                if($tablero[0]){
+                                                    $('#1').addClass("ocupada2");
+                                                    $tablero[0];
+                                                    break;
+                                                } else{
+                                                    if($tablero[i]){
+                                                        var num=i+1;
+                                                        $('#'+num).addClass("ocupada2");          
+                                                        $tablero[i]=false;
+                                                        break;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                         }
-                        return $tablero;
-                    }
+                    return $tablero;
+                }
             </script>
             
             <!--var array=["hola","que onda","adios"];
